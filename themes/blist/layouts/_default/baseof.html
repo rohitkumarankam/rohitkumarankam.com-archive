@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ .Lang }}" itemscope itemtype="http://schema.org/WebPage">
+  {{if isset .Site.Params "colormode"}}
+  <script>
+    if(localStorage.getItem('{{.Site.Params.colormode}}') == null) {
+      localStorage.setItem('darkmode', '{{.Site.Params.colormode}}');
+    }
+  </script>
+  {{end}}
   {{- partial "head.html" . -}}
   <body class="dark:bg-gray-800 dark:text-white relative flex flex-col min-h-screen">
     {{- partial "header.html" . -}}

@@ -62,6 +62,7 @@ DefaultContentLanguageInSubdir = false
 [params]
   # Enable the darkmode toggle in header
   darkModeToggle = true
+  colormode = "dark"
   
   # Enable search in header
   enableSearch = true
@@ -69,7 +70,7 @@ DefaultContentLanguageInSubdir = false
   introSubtitle = "17 y/o CyberSecurity Enthusiast who likes playing with tech."
   introPhoto = "/profile4.3.jpg"
   # Custom copyright - optional
-  copyright = "Copyright © 2021 - Katheryn Fox · All rights reserved"
+  copyright = "Copyright © 2021 - Rohit Kumar Ankam · All rights reserved"
   favicon = "/favicon.svg"
 
   # Color for the intro details and social links block, not applicable for dark mode
@@ -80,13 +81,13 @@ DefaultContentLanguageInSubdir = false
 [params.homepage.social]
   # Global params xommon for both languages
   title = "Follow me"
-  description = "I work on everything coding and tweet developer memes"
-  twitter = "https://twitter.com/"
-  linkedin = "https://linkedin.com/in/"
-  github = "https://github.com/"
-  medium = "https://medium.com/"
-  reddit = "https://reddit.com/"
-  dribbble = "https://dribbble.com/"
+  description = "to know about projects I am working on."
+  twitter = "https://twitter.com/rohitkumarankam"
+  linkedin = "https://linkedin.com/in/rohitkumarankam"
+  github = "https://github.com/rohitkumarankam"
+  # medium = "https://medium.com/"
+  # reddit = "https://reddit.com/"
+  # dribbble = "https://dribbble.com/"
 
 [[menu.main]]
   name = "About"
