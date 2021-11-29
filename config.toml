@@ -90,8 +90,13 @@ DefaultContentLanguageInSubdir = false
   # dribbble = "https://dribbble.com/"
 
 [[menu.main]]
+  name = "Contact Me"
+  url = "/contact"
+  weight = 1
+[[menu.main]]
   name = "About"
   url = "/about"
+  weight = 2
 
 [build]
   writeStats = true
