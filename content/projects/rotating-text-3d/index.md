@@ -3,7 +3,7 @@ title: "Rotating Text 3D"
 description: "3d Rotating Text on web."
 date: 2021-10-11
 draft: false
-thumbnail: http://rohitkumarankam.com/projects/rotating-text-3d/screenshot.png
+thumbnail: http://rohitkumarankam.com/projects/rotating-text-3d/screenshot.webp
 ---
 
 ### Project link: [https://rotatingtext-3d.rka.li/](https://rotatingtext-3d.rka.li/)

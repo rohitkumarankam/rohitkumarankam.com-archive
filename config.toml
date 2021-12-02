@@ -68,7 +68,7 @@ DefaultContentLanguageInSubdir = false
   enableSearch = true
   introTitle = "Hey! I'm Rohit Kumar"
   introSubtitle = "17 y/o CyberSecurity Enthusiast who likes playing with tech."
-  introPhoto = "/profile4.3.jpg"
+  introPhoto = "/profile4.3.webp"
   # Custom copyright - optional
   copyright = "Copyright © 2021 - Rohit Kumar Ankam · All rights reserved"
   favicon = "/favicon.ico"
