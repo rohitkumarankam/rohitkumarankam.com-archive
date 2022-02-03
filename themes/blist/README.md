@@ -43,7 +43,7 @@ Alternatively, you can include this repository as a [git submodule](https://git-
 git submodule add https://github.com/apvarun/blist-hugo-theme.git themes/blist
 ```
 
-## Preview the theme
+## Preview the theme with example content
 
 Blist theme ships with an fully configured example site. For a quick preview:
 
@@ -55,6 +55,16 @@ hugo serve --themesDir ../..
 ```
 
 Then visit `http://localhost:1313/` in your browser to view the example site.
+
+## Configuring theme to a hugo website
+
+1. Copy `package.json` and `package-lock.json` to the root folder of your the website
+2. Run `npm install` to install required packages for theme
+3. Run `npm i -g postcss-cli` to use PostCSS with Hugo build
+4. Set `theme = 'blist'` in config.toml
+5. Run `npm start` to start your local server
+
+Make sure to commit the above changes to your repository.
 
 When deploying to services like Netlify or Vercel, use the following command for building your site:
 
@@ -83,6 +93,10 @@ From `exampleSite/`, copy `config.toml` to the root folder of your Hugo site and
 ### Menu
 
 Menu in Blist theme is pre-set to have all section names. You can include custom links in header using the `menu.main` option config.toml.
+
+### Logo
+
+`logo` param in the site config will allow to use an image as the logo instead of the website name. It is localizable and so can have different logo for different languages
 
 ### Darkmode
 

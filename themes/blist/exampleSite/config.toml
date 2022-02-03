@@ -14,6 +14,7 @@ DefaultContentLanguageInSubdir = true
       introTitle = "Hey! I'm Katheryn Fox"
       introSubtitle = "26 y/o junior developer who enjoys social card games, blogging and painting"
       introPhoto = "/picture.jpg"
+      logo = "/blist-logo.png"
     [[languages.en.menu.main]]
         name = "Blog"
         url = "blog"
@@ -29,6 +30,11 @@ DefaultContentLanguageInSubdir = true
         url = "tags"
         weight = 3
 
+    [[languages.en.menu.main]]
+        name = "Top Post"
+        url = "/en/blog/emoji-support/"
+        weight = 4
+
   [languages.de]
     contentDir = "content/de" # Deutsch
     weight = 2
@@ -39,6 +45,7 @@ DefaultContentLanguageInSubdir = true
       introTitle = "Hallo, ich bin Katheryn Fox"
       introSubtitle = "26-jährige Junior-Entwicklerin, die Spaß an sozialen Kartenspielen, Bloggen und Malen hat"
       introPhoto = "/picture.jpg"
+      logo = "/blist-logo-de.png"
     [[languages.de.menu.main]]
         name = "Blog"
         url = "blog"
@@ -61,7 +68,7 @@ DefaultContentLanguageInSubdir = true
 
 [params]
   # Enable the darkmode toggle in header
-  darkModeToggle = false
+  darkModeToggle = true
   
   # Enable search in header
   enableSearch = true
@@ -81,6 +88,7 @@ DefaultContentLanguageInSubdir = true
   description = "I work on everything coding and tweet developer memes"
   twitter = "https://twitter.com/"
   linkedin = "https://linkedin.com/in/"
+  xing = "https://www.xing.com/profile/"
   github = "https://github.com/"
   medium = "https://medium.com/"
   reddit = "https://reddit.com/"
