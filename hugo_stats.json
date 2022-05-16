@@ -18,6 +18,7 @@
       "head",
       "header",
       "html",
+      "iframe",
       "img",
       "input",
       "li",
@@ -26,6 +27,7 @@
       "link",
       "main",
       "meta",
+      "noscript",
       "p",
       "path",
       "polyline",
@@ -185,8 +187,7 @@
       "project-link-httpsparticlesrkalihttpsparticlesrkali",
       "project-link-httpspentesttimeorghttpspentesttimeorg",
       "project-link-httpsrotatingtext-3drkalihttpsrotatingtext-3drkali",
-      "project-link-httpsterminalrkalihttpsterminalrkali",
-      "test"
+      "project-link-httpsterminalrkalihttpsterminalrkali"
     ]
   }
 }

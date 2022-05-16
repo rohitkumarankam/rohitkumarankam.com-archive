@@ -1,7 +1,12 @@
 {{ define "main" }}
+  {{ if (isset .Params "redirect")}}
+  <meta http-equiv="refresh" content="0, url={{- .Params.redirect -}}">
+  <script>
+    window.location.replace("{{- .Params.redirect -}}")
+  </script>
+  {{ end }}
   {{ $lastmodstr := (partial "date.html" (dict "date" .Lastmod "language" $.Page.Language "format" "long")) }}
   {{ $datestr := (partial "date.html" (dict "date" .Date "language" $.Page.Language "format" "long")) }}
-
   {{ if .Params.thumbnail }}
   <div class="relative max-w-5xl mx-auto px-4">
     <img src="{{ .Params.thumbnail }}" class="rounded-lg shadow-sm w-full object-contain" />
